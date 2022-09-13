@@ -51,12 +51,14 @@ return [
     ],
 
     'morphType' => [
-        'admin'   => 'Admin',
-        'blog'    => 'Blog',
-        'device'  => 'Device',
-        'group'   => 'Group',
-        'setting' => 'Setting',
-        'store'   => 'Store',
-        'site'    => 'Site',
+        'admin'     => 'Admin',
+        'blog'      => 'Blog',
+        'dashboard' => 'Dashboard',
+        'device'    => 'Device',
+        'group'     => 'Group',
+        'hq'        => 'Headquarter',
+        'setting'   => 'Setting',
+        'store'     => 'Store',
+        'site'      => 'Site',
     ]
 ];
