@@ -58,8 +58,10 @@ class MorphType
         return [
             'admin'      => 'Admin',
             'blog'       => 'Blog',
+            'dashboard'  => 'Dashboard',
             'device'     => 'Device',
             'group'      => 'Group',
+            'hq'         => 'Headquarter',
             'setting'    => 'Setting',
             'store'      => 'Store',
             'site'       => 'Site',
