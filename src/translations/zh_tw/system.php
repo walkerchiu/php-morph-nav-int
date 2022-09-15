@@ -51,14 +51,14 @@ return [
     ],
 
     'morphType' => [
-        'admin'     => 'Admin',
-        'blog'      => '部落格',
-        'dashboard' => 'Dashboard',
-        'device'    => '裝置',
-        'group'     => '群組',
-        'hq'        => '總部',
-        'setting'   => '設定',
-        'store'     => '商店',
-        'site'      => '站臺',
+        'admin'      => 'Admin',
+        'blog'       => '部落格',
+        'dashboard'  => 'Dashboard',
+        'device'     => '裝置',
+        'group'      => '群組',
+        'hq'         => '總部',
+        'setting'    => '設定',
+        'storefront' => '商店',
+        'site'       => '站臺',
     ]
 ];
