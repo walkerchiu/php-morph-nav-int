@@ -63,7 +63,7 @@ class MorphType
             'group'      => 'Group',
             'hq'         => 'Headquarter',
             'setting'    => 'Setting',
-            'store'      => 'Store',
+            'storefront' => 'Store',
             'site'       => 'Site',
         ];
     }
