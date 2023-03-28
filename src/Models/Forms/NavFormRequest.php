@@ -136,6 +136,16 @@ class NavFormRequest extends FormRequest
                 && isset($data['host_id'])
             ) {
                 if (
+                    config('wk-morph-nav.onoff.site-cms')
+                    && !empty(config('wk-core.class.site-cms.site'))
+                    && $data['host_type'] == config('wk-core.class.site-cms.site')
+                ) {
+                    $result = DB::table(config('wk-core.table.site-cms.sites'))
+                                ->where('id', $data['host_id'])
+                                ->exists();
+                    if (!$result)
+                        $validator->errors()->add('host_id', trans('php-core::validation.exists'));
+                } elseif (
                     config('wk-morph-nav.onoff.site-mall')
                     && !empty(config('wk-core.class.site-mall.site'))
                     && $data['host_type'] == config('wk-core.class.site-mall.site')
