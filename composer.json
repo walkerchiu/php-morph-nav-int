@@ -25,7 +25,9 @@
                 "WalkerChiu\\MorphNav\\MorphNavServiceProvider"
             ],
             "aliases": {
-                "Nav": "WalkerChiu\\MorphNav\\Models\\Entities\\Nav"
+                "Nav":                 "WalkerChiu\\MorphNav\\Models\\Entities\\Nav",
+                "NavWithImage":        "WalkerChiu\\MorphNav\\Models\\Entities\\NavWithImage",
+                "NavWithImageAndLink": "WalkerChiu\\MorphNav\\Models\\Entities\\NavWithImageAndLink"
             }
         }
     },
